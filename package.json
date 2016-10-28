@@ -1,0 +1,44 @@
+{
+  "name": "jest-utils",
+  "version": "0.0.1",
+  "description": "Usefull helpers for jest test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluecore-ui-kit/jest-utils.git"
+  },
+  "keywords": [
+    "jest",
+    "utils",
+    "mocks",
+    "react"
+  ],
+  "author": "Pavel Vlasov <freakycue@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluecore-ui-kit/jest-utils/issues"
+  },
+  "homepage": "https://github.com/bluecore-ui-kit/jest-utils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-jest": "^16.0.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "eslint": "^3.8.1",
+    "eslint-config-standard": "^6.2.1",
+    "jest-cli": "^16.0.2",
+    "react-fatigue": "github:bluecore-ui-kit/react-fatigue"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
